@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+/remote/Xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -e 10 routed.ncd
+mapped.pcf -o routed
+
+Design file:              routed.ncd
+Physical constraint file: mapped.pcf
+Device,package,speed:     xc5vlx330,ff1760,-2 (PRODUCTION 1.73 2012-01-07, STEPPING level 0)
+Report level:             error report, limited to 10 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_CLK = PERIOD TIMEGRP "CLK" 50 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 751 paths analyzed, 366 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.092ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.092|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 751 paths, 0 nets, and 421 connections
+
+Design statistics:
+   Minimum period:   4.092ns   (Maximum frequency: 244.379MHz)
+
+
+Analysis completed Sun Apr  1 14:44:35 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 850 MB
+
+
+

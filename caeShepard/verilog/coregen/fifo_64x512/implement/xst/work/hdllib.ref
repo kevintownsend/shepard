@@ -1,0 +1,2 @@
+AR fifo_64x512_top xilinx /home/ktown/caeShepard3/verilog/coregen/fifo_64x512/implement/../example_design/fifo_64x512_top.vhd sub00/vhpl01 1333309321
+EN fifo_64x512_top NULL /home/ktown/caeShepard3/verilog/coregen/fifo_64x512/implement/../example_design/fifo_64x512_top.vhd sub00/vhpl00 1333309320

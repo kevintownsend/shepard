@@ -1,0 +1,32 @@
+Release 13.4 - netgen O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -ofmt verilog -sim -tm fifo_64x512_top -pcf mapped.pcf -w
+-sdf_anno false routed.ncd routed.v  
+
+Read and Annotate design 'routed.ncd' ...
+Loading device for application Rf_Device from file '5vlx330.nph' in environment
+/remote/Xilinx/13.4/ISE_DS/ISE/.
+   "fifo_64x512_top" is an NCD, version 3.2, device xc5vlx330, package ff1760,
+speed -2
+Loading constraints from 'mapped.pcf'...
+WARNING:Anno:67 - NCD is not completely routed, some delays may be inaccurate.
+The number of routable networks is 280
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog SDF file 'routed.sdf' ...
+Writing Verilog netlist file 'routed.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM simulation library for
+   correct compilation and simulation. 
+INFO:NetListWriters - Xilinx recommends running separate simulations to check
+   for setup by specifying the MAX field in the SDF file and for hold by
+   specifying the MIN field in the SDF file. Please refer to Simulator
+   documentation for more details on specifying MIN and MAX field in the SDF.
+INFO:NetListWriters:665 - For more information on how to pass the SDF switches
+   to the simulator, see your Simulator tool documentation.
+Number of warnings: 1
+Number of info messages: 3
+Total memory usage is 902588 kilobytes

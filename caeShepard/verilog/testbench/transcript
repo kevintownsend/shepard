@@ -1,0 +1,35 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 2.6.18-274.17.1.el5.cny4.5538
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlog -reportprogress 300 -work work /home/ktown/jones/caeShepard/verilog/testbench/sync_fifo_tb.v
+# Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+# ** Error: /home/ktown/jones/caeShepard/verilog/testbench/sync_fifo_tb.v(1): near "(": syntax error, unexpected '(', expecting "IDENTIFIER" or "TYPE_IDENTIFIER"
+vlog -reportprogress 300 -work work /home/ktown/jones/caeShepard/verilog/testbench/sync_fifo_tb.v
+# Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+# -- Compiling module sync_fifo_tb
+# ** Error: /home/ktown/jones/caeShepard/verilog/testbench/sync_fifo_tb.v(35): near "endmodule": syntax error, unexpected "endmodule"
+vlog -reportprogress 300 -work work /home/ktown/jones/caeShepard/verilog/testbench/sync_fifo_tb.v
+# Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+# -- Compiling module sync_fifo_tb
+# 
+# Top level modules:
+# 	sync_fifo_tb
+vlog -reportprogress 300 -work work /home/ktown/jones/caeShepard/verilog/testbench/sync_fifo_tb.v
+# Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+# -- Compiling module sync_fifo_tb
+# 
+# Top level modules:
+# 	sync_fifo_tb
+vsim work.sync_fifo_tb
+# vsim work.sync_fifo_tb 
+# Loading work.sync_fifo_tb
+# Loading work.sync_fifo
+add wave sim:/sync_fifo_tb/fifo/*
+run 1000

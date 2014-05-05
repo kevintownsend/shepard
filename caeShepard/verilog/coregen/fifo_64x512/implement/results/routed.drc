@@ -1,0 +1,61 @@
+Release 13.4 Drc O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Sun Apr  1 14:44:44 2012
+
+drc -z routed.ncd
+
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/ram_regout_en> is completely
+   unrouted.
+ERROR:PhysDesignRules:10 - The network <clk_i> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_24_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (24)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <SRST_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_21_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_32_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (32)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_13_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_40_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (40)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_30_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_17_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (17)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_22_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_25_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (25)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_14_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_33_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (33)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_31_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_41_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (41)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_23_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_18_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (18)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_15_IBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DOUT_26_OBUF> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network
+   <fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem
+   (26)> is completely unrouted.
+ERROR:PhysDesignRules:10 - The network <DIN_40_IBUF> is completely unrouted.
+ERROR:PhysDesignRules - <251> messages for unrouted networks were not reported.
+ERROR:Bitgen:25 - DRC detected 280 errors and 0 warnings.  Please see the
+   previously displayed individual error or warning messages for more details.
+INFO:Bitgen:328 - DRC errors can be caused by a missing constraints file (.pcf).

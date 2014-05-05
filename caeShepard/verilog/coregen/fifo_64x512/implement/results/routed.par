@@ -1,0 +1,77 @@
+Release 13.4 par O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+xilinx-2.ece.iastate.edu::  Sun Apr 01 14:43:11 2012
+
+par mapped.ncd routed.ncd 
+
+
+Constraints file: mapped.pcf.
+Loading device for application Rf_Device from file '5vlx330.nph' in environment /remote/Xilinx/13.4/ISE_DS/ISE/.
+   "fifo_64x512_top" is an NCD, version 3.2, device xc5vlx330, package ff1760, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.73 2012-01-07".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           1 out of 32      3%
+   Number of External IOBs                 135 out of 1200   11%
+      Number of LOCed IOBs                   0 out of 135     0%
+
+   Number of RAMB36SDP_EXPs                  1 out of 288     1%
+   Number of Slices                         60 out of 51840   1%
+   Number of Slice Registers               119 out of 207360  1%
+      Number used as Flip Flops            119
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                     63 out of 207360  1%
+   Number of Slice LUT-Flip Flop pairs     138 out of 207360  1%
+
+
+Overall effort level (-ol):   Standard 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 16 secs 
+Finished initial Timing Analysis.  REAL time: 16 secs 
+
+Starting Router
+
+
+Phase  1  : 675 unrouted;      REAL time: 21 secs 
+
+Phase  2  : 557 unrouted;      REAL time: 21 secs 
+
+Phase  3  : 107 unrouted;      REAL time: 22 secs 
+
+Phase  4  : 107 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
+
+Ctrl-C interrupt detected.
+
+
+STATUS:
+	+------------------------------------+--------------------------------+
+	| Most recent SmartPreview on disk:  |                            N/A |
+	| Fully placed:                      |                            YES |
+	| Fully routed:                      |                             NO |
+	| SmartPreview status:               |           NOT ready for bitgen |
+	| Timing score:                      |                            N/A |
+	| Timing errors:                     |                            N/A |
+	| Number of failing constraints:     |                            N/A |
+	+------------------------------------+--------------------------------+
+
+	Option 3 in the menu below will save the SmartPreview design
+	file and a timing summary in ./SmartPreview.
+
+MENU: Please choose one of the following options:
+	1. Ignore interrupt and continue processing.
+	2. Exit program immediately.
+	3. Preserve most recent SmartPreview and continue (see STATUS above).
+
+Enter choice --> 

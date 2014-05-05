@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/ram_regout_en</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">clk_i</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_24_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(24)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">SRST_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_21_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_32_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(32)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_13_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_40_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(40)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_30_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_17_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(17)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_22_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_25_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(25)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_14_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_33_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(33)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_31_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_41_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(41)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_23_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_18_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(18)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_15_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DOUT_26_OBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">fg0/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/dout_mem(26)</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="PhysDesignRules" num="10" delta="new" >The network &lt;<arg fmt="%s" index="1">DIN_40_IBUF</arg>&gt; is completely unrouted.
+</msg>
+
+<msg type="error" file="Bitgen" num="25" delta="new" >DRC detected <arg fmt="%d" index="1">280</arg> errors and <arg fmt="%d" index="2">0</arg> warnings.  Please see the previously displayed individual error or warning messages for more details.
+</msg>
+
+<msg type="info" file="Bitgen" num="328" delta="new" >DRC errors can be caused by a missing constraints file (.pcf).
+</msg>
+
+</messages>
+
