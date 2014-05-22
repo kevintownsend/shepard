@@ -1,0 +1,15 @@
+These programs will help you create a giant hash table of the entire genome.
+ - countUnique.exe takes O(n) time (~4 hours per 2.8 billion entries on my home PC)
+ - createHashTable.exe takes O(n) time (~142 minutes on linix-3), requiring enough memory
+   to hold the hash table (8 bytes per entry = 22.5 GB).  All disk operations are sequential,
+   and the current hardcoded storage location is /dev/shm/
+
+make clean
+
+make
+
+./bin/countUnique ./human_g1k_v37.bin ./unique.bin
+
+./bin/createHashTable ./human_g1k_v37.bin ./unique.bin ./hashtable.bin
+
+./bin/align ./human_g1k_v37.bin ./reads.bin ./hashtable.bin > /dev/shm/results.txt
